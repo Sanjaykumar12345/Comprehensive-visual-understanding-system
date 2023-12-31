@@ -1,0 +1,10 @@
+# YOLOv5 configuration file
+
+# Dataset
+train: "C:\\Users\\Harijana.Parushuram\\Music\\fruitsDataSeg\\train\\images"  # Path to the directory containing training images
+val: "C:\\Users\\Harijana.Parushuram\\Music\\fruitsDataSeg\\val\\images"    # Path to the directory containing validation images
+nc: 2                   # Number of classes in your dataset (adjust as per your dataset)
+
+# Class names (list of class labels, make sure it matches your dataset)
+names: ['strawberry','orange']
+ 
